@@ -1,0 +1,9 @@
+# Ignore everything
+*
+# But descend into directories
+!*/
+# Recursively allow files under subtree
+!/common/**
+!/thread-factory/src/**
+!/thread-waker/src/**
+!.gitignore
